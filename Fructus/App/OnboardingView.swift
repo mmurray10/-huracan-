@@ -29,7 +29,7 @@ struct OnboardingView: View {
 // MARK: - PREVIEW
 
 struct OnboardingView_Previews: PreviewProvider {
-    static var previews: some View {
-        OnboardingView(fruits: fruitsData)
+  static var previews: some View {
+    OnboardingView(fruits: fruitsData)
     }
 }
