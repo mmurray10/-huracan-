@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SettingsLabel: View {
+struct SettingsLabelView: View {
     
     var labelText: String
     var labelImage: String
@@ -23,7 +23,7 @@ struct SettingsLabel: View {
 
 struct SettingsLabel_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsLabel(labelText: "Fructus", labelImage: "info.circle")
+        SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
             .previewLayout(.sizeThatFits)
             .padding()
             

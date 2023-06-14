@@ -23,6 +23,7 @@
 		42F3FCF42A3935B700E68A53 /* FruitsNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F3FCF32A3935B700E68A53 /* FruitsNutrientsView.swift */; };
 		42F3FCF62A39AA6C00E68A53 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F3FCF52A39AA6C00E68A53 /* SettingsView.swift */; };
 		42F3FCF82A39B60F00E68A53 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F3FCF72A39B60F00E68A53 /* SettingsLabelView.swift */; };
+		42F3FCFC2A39BF9700E68A53 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F3FCFB2A39BF9700E68A53 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		42F3FCF32A3935B700E68A53 /* FruitsNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsNutrientsView.swift; sourceTree = "<group>"; };
 		42F3FCF52A39AA6C00E68A53 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		42F3FCF72A39B60F00E68A53 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		42F3FCFB2A39BF9700E68A53 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsRowView.swift; path = Fructus/DATA/Model/App/SettingsRowView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		42F192EE2A1228A8008F31A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				42F3FCFB2A39BF9700E68A53 /* SettingsRowView.swift */,
 				42F192F12A12294D008F31A5 /* FruitCardView.swift */,
 				42F192F32A133089008F31A5 /* StartButtonView.swift */,
 				427482FE2A21A61700CFEBD6 /* FruitRowView.swift */,
@@ -207,6 +210,7 @@
 			files = (
 				42F192F22A12294D008F31A5 /* FruitCardView.swift in Sources */,
 				42F3FCF22A3932B000E68A53 /* SourceLinkView.swift in Sources */,
+				42F3FCFC2A39BF9700E68A53 /* SettingsRowView.swift in Sources */,
 				42F193022A1E17BB008F31A5 /* FruitData.swift in Sources */,
 				427482FF2A21A61700CFEBD6 /* FruitRowView.swift in Sources */,
 				427482FD2A1FBDC800CFEBD6 /* FrustusApp.swift in Sources */,
